@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Analog clock configure</title>
+<meta http-equiv="Content-Type" content="text/html">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script src="analogClock-1.0.0.0.js"></script>
+</head>
+<body>
+<canvas id="C1" style="position:absolute; left:10px; top:10px;" width="300" height="300"> </canvas> 
+<script>
+var AClock1 = new AnalogClock("C1",{
+"borderMargin":"10",
+"borderWidth":"4",
+"handEnd":"round",
+"backgroundColor":"#FFFFFF",
+"borderColor":"black",
+"hourHandWidth":"8",
+"hourHandColor":"red",
+"hourHandPercent":"0.649999976158142",
+"minuteHandWidth":"8",
+"minuteHandColor":"red",
+"minuteHandPercent":"0.850000023841858",
+"secondHandWidth":"2",
+"secondHandColor":"black",
+"secondHandPercent":"0.949999988079071",
+"dialCenterSize":"8",
+"dialCenterColor":"#000000",
+"numberMargin":"0.9",
+"fontOffset":"0.35",
+"fontColor":"#000000",
+"fontSize":"20",
+"fontName":"Verdana",
+"imageSrc":""});
+
+setInterval(function(){
+var time=new Date();
+var h=time.getHours();
+var m=time.getMinutes();
+var s=time.getSeconds();
+AClock1.DrawClock2(h,m,s);}
+,500);
+</script>
+</body>
+</html>
+
