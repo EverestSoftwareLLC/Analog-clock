@@ -1,6 +1,12 @@
 # Analog-clock
 A simple HTML5 analog clock with no dependencies.
 
+borderMargin  The space from the bounds of the canvas to the arc of the clock.
+borderWidth   The width of the clock arc. Can be 0.
+handEnd       The end of the hands can be round or square.
+backgroundColor The background color of the clock.
+borderColor   The color of the arc.
+
 hourHandWidth, minuteHandWidth, secondHandWidth 
 The width of the hand.                 
 
@@ -8,8 +14,7 @@ hourHandColor, minuteHandColor, secondHandColor     
 The color of the hand.
 
 hourHandPercent, minuteHandPercent, secondHandPercent
-The length of the hand, expressed as percent of radius.
-Can be 0.
+The length of the hand, expressed as percent of radius. Can be 0.
 
 dialCenterSize  The dial center can have a center circle. Can be 0.
 dialCenterColor The color of the dial center.        
