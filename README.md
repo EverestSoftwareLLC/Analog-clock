@@ -26,8 +26,8 @@ dialCenterColor The color of the dial center.
 
 numberMargin    The position of numbers from the center of the dial.
 
-fontOffset      The vertical offset of the numbers. When the second hand is on 15 and the secondhand in in the middle of the 3, 
-                The offset is correct. Adjust for different font families and font size.
+fontOffset      The vertical offset of the numbers. When the seconds is 15 and the second hand is in the middle of the 3, 
+                the offset is correct. Adjust for different font families and font size.
                 
 fontColor       The color of the font.
 
@@ -35,4 +35,4 @@ fontSize        The font size.
 
 fontName        The font family name.
 
-imageSrc        An optional image as a background of the clock.
+imageSrc        An optional image for the background of the clock.
