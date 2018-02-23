@@ -26,8 +26,8 @@ dialCenterColor The color of the dial center.
 
 numberMargin    The position of numbers from the center of the dial.
 
-fontOffset      The vertical offset of the numbers. When the second hand is on 15 and the secondhand in in the middle of the 3. 
-                The offset is correct. Adjust for differentfont families and font size.
+fontOffset      The vertical offset of the numbers. When the second hand is on 15 and the secondhand in in the middle of the 3, 
+                The offset is correct. Adjust for different font families and font size.
                 
 fontColor       The color of the font.
 
