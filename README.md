@@ -12,6 +12,7 @@ The length of the hand, expressed as percent of radius.
 Can be 0.
  
 dialCenterSize  The dial center can have a center circle. Can be 0.
+
 dialCenterColor The color of the dial center.        
 
 numberMargin       
