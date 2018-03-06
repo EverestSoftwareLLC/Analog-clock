@@ -1,4 +1,6 @@
-# Analog-clockA simple HTML5 analog clock with no dependencies.
+# Analog-clock
+
+A simple HTML5 analog clock with no dependencies.
 
 
 borderMargin The space from the bounds of the canvas to the arc of the clock.
